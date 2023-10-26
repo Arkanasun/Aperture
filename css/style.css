@@ -1,0 +1,21 @@
+header{
+    height: 90px;
+    background-color: #181818;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.item_link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+.first{
+    margin-left: 32px;
+
+}

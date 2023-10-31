@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.eot');
+    src: url('../fonts/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff'),
+         url('../fonts/poppins-regular-webfont.ttf') format('truetype'),
+         url('../fonts/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 header{
      background-color: #181818;
      padding: 24px 0;
@@ -21,7 +38,7 @@ header nav ul{
 header nav li a{
     text-decoration: none;
     color: #FFF;
-    font-family: Poppins;
+    font-family: poppinsregular;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -38,7 +55,7 @@ header nav li:last-of-type{
 }
 header nav li a{
     color: #FFF;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
@@ -46,7 +63,7 @@ line-height: 20px; /* 133.333% */
 }
 header nav li:first-of-type a{
     color: #FFF;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 13px;
 font-style: normal;
 font-weight: 400;
@@ -54,7 +71,7 @@ line-height: 20px; /* 153.846% */
 }
 header nav li:last-of-type a{
     color: #000;
-font-family: Poppins;
+font-family: ppoppinsregular;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -65,7 +82,8 @@ height: 42px;
 flex-shrink: 0;
 border-radius: 14px;
 background: #FFF;
-padding: 11px 20px}
+padding: 11px 20px
+}
 .main_banner{
     background-image: url(../images/main_bg.jpg);
     background-size: cover;
@@ -74,6 +92,7 @@ padding: 11px 20px}
     align-items: end;
     justify-content: center;
     padding-bottom: 71px;
+    position: relative;
 
 }
 .main_banner .container{
@@ -84,7 +103,7 @@ padding: 11px 20px}
 .main_banner h3{
     color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -96,7 +115,7 @@ margin-bottom: 1px;
 .main_banner h1{
 color: #FFF;
 text-align: center;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 54px;
 font-style: normal;
 font-weight: 400;
@@ -106,7 +125,7 @@ margin-bottom: 18px;
 .main_banner p{
     color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -115,7 +134,7 @@ line-height: 20px; /* 142.857% */
 .mount{
     background-image: url(../images/mount.jpg);
     background-size: cover;
-    height: calc(100vh - 83px);
+    min-height: 600px;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -126,7 +145,7 @@ line-height: 20px; /* 142.857% */
     text-align: left;
 }
 .mount article h3{color: #FFF;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -135,7 +154,7 @@ letter-spacing: 2px;
 text-transform: uppercase;}
 .mount article p{
     color: #C0C0C0;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -144,7 +163,7 @@ line-height: 20px; /* 142.857% */
 .plant{
      background-image: url(../images/monst.jpg);
     background-size: cover;
-    height: calc(100vh - 83px);
+    min-height: 600px;
     display: flex;
    align-items: center;
    justify-content: right;
@@ -155,7 +174,7 @@ line-height: 20px; /* 142.857% */
    }
 .plant h3{
     color: #FFF;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -165,7 +184,7 @@ text-transform: uppercase;
 }
 .plant p{
     color: #C0C0C0;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -189,7 +208,7 @@ margin-top: 120px;
 margin-bottom: 0;
 color: #FFF;
 text-align: center;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
@@ -200,7 +219,7 @@ line-height: 42px; /* 105% */
     margin-bottom: 42px;
 color: #C0C0C0;
 text-align: center;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 24px;
 font-style: normal;
 font-weight: 400;
@@ -217,7 +236,7 @@ gap: 109px;
     background-image: url(../images/star.jpg);
     background-size: cover;
     display: flex;
-    height: calc(100vh - 83px);
+   min-height: 600px;
     align-items: center;
     justify-content: right;
 }
@@ -227,7 +246,7 @@ gap: 109px;
 }
 .bolid h3{
     color: #FFF;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -238,9 +257,48 @@ text-transform: uppercase;
 .bolid p{
     max-width: 241px;
     color: #C0C0C0;
-font-family: Poppins;
+font-family: poppinsregular;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px; /* 142.857% */
+}
+.icons{
+    position: absolute;
+    right: 40px;
+    bottom: 41px;
+    display: flex;
+}
+.icons li{
+    color: #FFF;
+font-family: poppinsregular;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 100% */
+margin-left: 16px;
+list-style: none;
+}
+.icons li:before{
+    display: inline-block;
+    content: "";
+    background-image: url(../images/icon1.svg);
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    margin-bottom: -6px;
+}
+.icons li:nth-child(2):before{
+      background-image: url(../images/icon2.svg);
+}
+.icons li:nth-child(3):before{
+    background-image: url(../images/icon3.svg);
+    width: 32px;
+    margin-right: 7px;
+
+}
+.icons li:last-of-type:before{
+        background-image: url(../images/icon4.svg);
+    width: 10px;
+    margin-right: 5px;
 }

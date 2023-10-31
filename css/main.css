@@ -183,10 +183,12 @@ padding-right: 27px;}
     justify-content: space-between;
     flex-direction: column;
 }
-.box{
+.black .container{
+    padding: 40px;
+    margin-bottom: 100px;
 }
 .black h2{
-
+margin-top: 120px;
 color: #FFF;
 text-align: center;
 font-family: Poppins;
@@ -205,10 +207,40 @@ font-weight: 400;
 line-height: 30px; /* 125% */
 }
 .black a{
-padding-left: 136px;
-height: 158px;
 padding: 40px 46px;
+height: 158px;
 justify-content: center;
 align-items: center;
 gap: 109px;
-    }
+}
+.bolid{
+    background-image: url(../images/star.jpg);
+    background-size: cover;
+    display: flex;
+    height: calc(100vh - 83px);
+    align-items: center;
+    justify-content: right;
+}
+.bolid article{
+    padding-right: 46px;
+    margin-right: 60px;
+}
+.bolid h3{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.bolid p{
+    max-width: 241px;
+    color: #C0C0C0;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+}

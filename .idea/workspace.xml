@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d28f19-64c1-4db3-8743-eebcfbac58ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/Mobile Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arkan/HTML5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arkan/HTML5/Hillel_Front_end/Aperture&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -41,6 +45,12 @@
       <updated>1700591916191</updated>
       <workItem from="1700591918733" duration="454000" />
       <workItem from="1700592394729" duration="27000" />
+      <workItem from="1700819186264" duration="55000" />
+      <workItem from="1700819341463" duration="70000" />
+      <workItem from="1700823221395" duration="48000" />
+      <workItem from="1701193941137" duration="32000" />
+      <workItem from="1701194059481" duration="40000" />
+      <workItem from="1701194157589" duration="65000" />
     </task>
     <servers />
   </component>

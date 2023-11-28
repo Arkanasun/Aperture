@@ -297,6 +297,17 @@ padding-right: 27px;}
 .black .container{
     margin-bottom: 100px;
 }
+.black .container a img{
+    max-width: 128px;
+    width: 100%;
+}
+.black .container .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.black .container .owl-stage .owl-item{
+    text-align: center;
+}
 .black h2{
 margin-top: 120px;
 
@@ -506,4 +517,26 @@ align-items: center;
     background-repeat: no-repeat;
     margin-left: 4px;
     margin-right: 6px;
+}
+.black .owl-dots span{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    display: flex;
+    margin-left: 15px;
+}
+.black .owl-dots{
+    display: flex;
+   justify-content: center;
+}
+.faq{
+    padding: 100px;
+    background-color: #fff;
+}
+.faq h3{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-style: normal;
 }

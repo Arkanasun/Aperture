@@ -13,4 +13,7 @@ header nav li a{
  .main_banner .container {
  	padding: 0 15px;
  }
+.nav-but-wrap{
+	display: inline-block;
+}
 }
